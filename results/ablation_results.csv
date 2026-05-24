@@ -1,0 +1,5 @@
+configuration,interventions_per_1k_mean,interventions_per_1k_std,mission_success_pct_mean,mission_success_pct_std,episodes_per_run,runs,seed_start
+CarOS-A2X (Theory PoC),0.365972,0.038106,71.256944,0.105837,120000,12,500
+Single LLM (Claude only),0.436806,0.043229,64.258819,0.125934,120000,12,500
+No inheritance engine,0.48125,0.040984,63.272917,0.134704,120000,12,500
+A2A-only (no MCP),0.752778,0.054575,51.250278,0.138244,120000,12,500

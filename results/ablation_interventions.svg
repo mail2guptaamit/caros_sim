@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="28">CarOS-A2X Ablation: Intervention Rate</text>
+<text x="35" y="285" transform="rotate(-90 35,285)" text-anchor="middle" font-family="Arial" font-size="18">Interventions per 1k miles</text>
+<line x1="100" y1="90" x2="100" y2="480" stroke="#333" stroke-width="2"/>
+<line x1="100" y1="480" x2="1160" y2="480" stroke="#333" stroke-width="2"/>
+<line x1="100" y1="480.0" x2="1160" y2="480.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="485.0" text-anchor="end" font-family="Arial" font-size="14">0.00</text>
+<line x1="100" y1="402.0" x2="1160" y2="402.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="407.0" text-anchor="end" font-family="Arial" font-size="14">0.19</text>
+<line x1="100" y1="324.0" x2="1160" y2="324.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="329.0" text-anchor="end" font-family="Arial" font-size="14">0.39</text>
+<line x1="100" y1="246.0" x2="1160" y2="246.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="251.0" text-anchor="end" font-family="Arial" font-size="14">0.58</text>
+<line x1="100" y1="168.0" x2="1160" y2="168.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="173.0" text-anchor="end" font-family="Arial" font-size="14">0.78</text>
+<line x1="100" y1="90.0" x2="1160" y2="90.0" stroke="#d9d9d9" stroke-width="1"/>
+<text x="88" y="95.0" text-anchor="end" font-family="Arial" font-size="14">0.97</text>
+<rect x="158.3" y="332.7" width="148.4" height="147.3" fill="#2f5597"/>
+<line x1="232.5" y1="317.3" x2="232.5" y2="348.0" stroke="#111" stroke-width="2"/>
+<line x1="222.5" y1="317.3" x2="242.5" y2="317.3" stroke="#111" stroke-width="2"/>
+<line x1="222.5" y1="348.0" x2="242.5" y2="348.0" stroke="#111" stroke-width="2"/>
+<text x="232.5" y="506" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(18 232.5,506)">CarOS-A2X (Theory PoC)</text>
+<text x="232.5" y="322.7" text-anchor="middle" font-family="Arial" font-size="13">0.37</text>
+<rect x="423.3" y="304.2" width="148.4" height="175.8" fill="#4f81bd"/>
+<line x1="497.5" y1="286.8" x2="497.5" y2="321.6" stroke="#111" stroke-width="2"/>
+<line x1="487.5" y1="286.8" x2="507.5" y2="286.8" stroke="#111" stroke-width="2"/>
+<line x1="487.5" y1="321.6" x2="507.5" y2="321.6" stroke="#111" stroke-width="2"/>
+<text x="497.5" y="506" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(18 497.5,506)">Single LLM (Claude only)</text>
+<text x="497.5" y="294.2" text-anchor="middle" font-family="Arial" font-size="13">0.44</text>
+<rect x="688.3" y="286.3" width="148.4" height="193.7" fill="#7aa5d2"/>
+<line x1="762.5" y1="269.8" x2="762.5" y2="302.8" stroke="#111" stroke-width="2"/>
+<line x1="752.5" y1="269.8" x2="772.5" y2="269.8" stroke="#111" stroke-width="2"/>
+<line x1="752.5" y1="302.8" x2="772.5" y2="302.8" stroke="#111" stroke-width="2"/>
+<text x="762.5" y="506" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(18 762.5,506)">No inheritance engine</text>
+<text x="762.5" y="276.3" text-anchor="middle" font-family="Arial" font-size="13">0.48</text>
+<rect x="953.3" y="177.0" width="148.4" height="303.0" fill="#9dc3e6"/>
+<line x1="1027.5" y1="155.0" x2="1027.5" y2="198.9" stroke="#111" stroke-width="2"/>
+<line x1="1017.5" y1="155.0" x2="1037.5" y2="155.0" stroke="#111" stroke-width="2"/>
+<line x1="1017.5" y1="198.9" x2="1037.5" y2="198.9" stroke="#111" stroke-width="2"/>
+<text x="1027.5" y="506" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(18 1027.5,506)">A2A-only (no MCP)</text>
+<text x="1027.5" y="167.0" text-anchor="middle" font-family="Arial" font-size="13">0.75</text>
+</svg>
