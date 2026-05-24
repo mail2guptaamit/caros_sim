@@ -29,6 +29,16 @@ cd /mnt/chromeos/MyFiles/Downloads/caros_sim
 python3 run_ablation.py --episodes 120000 --runs 12 --seed 500
 ```
 
+## Generate episode-level dataset (thousands+ rows)
+```bash
+cd /mnt/chromeos/MyFiles/Downloads/caros_sim
+python3 generate_episode_dataset.py --episodes 10000 --runs 12 --seed 500 --out results/episode_level_dataset.csv
+```
+
+Row count formula:
+- `rows = 4 configs x runs x episodes`
+- Example above creates `4 x 12 x 10000 = 480000` data rows.
+
 ## Current observed results (example)
 From one 500k-episode run:
 - Baseline interventions: `0.78 / 1k mi`
