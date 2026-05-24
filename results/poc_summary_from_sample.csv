@@ -1,0 +1,9 @@
+configuration,metric,mean,std,n_runs
+A2A-only (no MCP),interventions_per_1k,1.0,0.816497,3
+A2A-only (no MCP),mission_success_pct,50.3,0.535413,3
+CarOS-A2X (Theory PoC),interventions_per_1k,0.666667,0.471405,3
+CarOS-A2X (Theory PoC),mission_success_pct,71.133333,0.449691,3
+No inheritance engine,interventions_per_1k,1.0,0.816497,3
+No inheritance engine,mission_success_pct,62.766667,0.286744,3
+Single LLM (Claude only),interventions_per_1k,1.0,0.816497,3
+Single LLM (Claude only),mission_success_pct,63.766667,0.329983,3

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="760">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="490" y="42" text-anchor="middle" font-family="Arial" font-size="30">CarOS-A2X PoC: Safety-Performance Tradeoff</text>
+<line x1="110" y1="90" x2="110" y2="670" stroke="#333" stroke-width="2"/>
+<line x1="110" y1="670" x2="930" y2="670" stroke="#333" stroke-width="2"/>
+<text x="490" y="740" text-anchor="middle" font-family="Arial" font-size="18">Interventions per 1k episodes (lower is better)</text>
+<text x="35" y="380" transform="rotate(-90 35,380)" text-anchor="middle" font-family="Arial" font-size="18">Mission success (%)</text>
+<circle cx="189.4" cy="586.4" r="6" fill="#1f77b4" opacity="0.85"/>
+<circle cx="850.6" cy="596.9" r="6" fill="#1f77b4" opacity="0.85"/>
+<circle cx="520.0" cy="613.9" r="6" fill="#1f77b4" opacity="0.85"/>
+<rect x="514.0" y="593.1" width="12" height="12" fill="black"/>
+<circle cx="189.4" cy="158.8" r="6" fill="#ff7f0e" opacity="0.85"/>
+<circle cx="520.0" cy="169.4" r="6" fill="#ff7f0e" opacity="0.85"/>
+<circle cx="520.0" cy="146.1" r="6" fill="#ff7f0e" opacity="0.85"/>
+<rect x="403.8" y="152.1" width="12" height="12" fill="black"/>
+<circle cx="189.4" cy="328.1" r="6" fill="#2ca02c" opacity="0.85"/>
+<circle cx="850.6" cy="334.5" r="6" fill="#2ca02c" opacity="0.85"/>
+<circle cx="520.0" cy="343.0" r="6" fill="#2ca02c" opacity="0.85"/>
+<rect x="514.0" y="329.2" width="12" height="12" fill="black"/>
+<circle cx="189.4" cy="309.1" r="6" fill="#d62728" opacity="0.85"/>
+<circle cx="850.6" cy="309.1" r="6" fill="#d62728" opacity="0.85"/>
+<circle cx="520.0" cy="323.9" r="6" fill="#d62728" opacity="0.85"/>
+<rect x="514.0" y="308.0" width="12" height="12" fill="black"/>
+<rect x="610" y="90" width="300" height="128" fill="white" stroke="#bbb"/>
+<circle cx="620" cy="110" r="6" fill="#1f77b4"/>
+<text x="634" y="115" font-family="Arial" font-size="13">A2A-only (no MCP)</text>
+<circle cx="620" cy="136" r="6" fill="#ff7f0e"/>
+<text x="634" y="141" font-family="Arial" font-size="13">CarOS-A2X (Theory PoC)</text>
+<circle cx="620" cy="162" r="6" fill="#2ca02c"/>
+<text x="634" y="167" font-family="Arial" font-size="13">No inheritance engine</text>
+<circle cx="620" cy="188" r="6" fill="#d62728"/>
+<text x="634" y="193" font-family="Arial" font-size="13">Single LLM (Claude only)</text>
+</svg>
